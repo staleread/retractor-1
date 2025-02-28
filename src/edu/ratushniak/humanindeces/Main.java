@@ -6,8 +6,10 @@ public class Main {
         double weight = 80.0;
         double imb = 1.52;
 
-        var humanIMB = new HumanIMB(weight, imb);
+        var bmiCalculator = new BMICalculator();
+        var bmi = bmiCalculator.calculateBMI(weight, imb);
+        var weightCategory = BMICalculator.bmiToWeightCategory(bmi);
 
-        System.out.println(humanIMB.Result());
+        System.out.println(weightCategory);
     }
 }
