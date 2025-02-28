@@ -1,4 +1,5 @@
 # retractor-1
 
 Fixed Issues:
-- Classes must start with uppercase
+1. Classes must start with uppercase
+2. Each class in its own file 
