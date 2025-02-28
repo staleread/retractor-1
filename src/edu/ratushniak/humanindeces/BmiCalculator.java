@@ -1,6 +1,6 @@
 package edu.ratushniak.humanindeces;
 
-class BMICalculator {
+class BmiCalculator {
     public static String bmiToWeightCategory(double bmi) {
         if (bmi < 18.5) {
             return "Deficit";
@@ -14,7 +14,7 @@ class BMICalculator {
         return "Fat";
     }
 
-    public double calculateBMI(double weight, double height) {
+    public double calculateBmi(double weight, double height) {
         return weight / (height * height);
     }
 }

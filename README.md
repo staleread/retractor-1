@@ -13,3 +13,4 @@ Fixed Issues:
 10. Don't use "&" without puppose
 11. Redundant expression wrapping "()"
 12. Use common terminology (BMI instead of IMB)
+13. Google Style Names ("BmiCalculator" instead of "BMICalculator")

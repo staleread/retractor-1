@@ -6,9 +6,9 @@ public class Main {
         double weight = 80.0;
         double imb = 1.52;
 
-        var bmiCalculator = new BMICalculator();
-        var bmi = bmiCalculator.calculateBMI(weight, imb);
-        var weightCategory = BMICalculator.bmiToWeightCategory(bmi);
+        var bmiCalculator = new BmiCalculator();
+        var bmi = bmiCalculator.calculateBmi(weight, imb);
+        var weightCategory = BmiCalculator.bmiToWeightCategory(bmi);
 
         System.out.println(weightCategory);
     }
